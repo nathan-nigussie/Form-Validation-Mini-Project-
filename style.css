@@ -1,81 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color:#8f9e6f; 
-  font-family: 'Open Sans', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
+    background-color: #ebdf3a89;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .container {
-  background-color: rgb(101, 168, 194);
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  width: 400px;
-  margin:auto;
+    background-color: rgb(101, 168, 194);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin: auto;
 }
 
 h2 {
-  text-align: center;
-  margin: 0 0 18px;
-   font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0 0 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .form {
-  padding: 50px 40px;
+    padding: 50px 40px;
 }
 
 .form-control {
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 .form-control label {
-  color: rgb(17, 3, 3);
-  display: block;
-  margin-bottom: 5px;
-  font-size: 14.5px;
+    color: rgb(17, 3, 3);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14.5px;
 }
 
 .form-control input {
-  border: 2px solid #066146;
-  border-radius: 4px;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
+    border: 2px solid #066146;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .form-control input:focus {
-  outline: 0;
-  border-color: rgba(2, 46, 6, 0.651);
+    outline: 0;
+    border-color: rgba(2, 46, 6, 0.651);
 }
 
 .form button {
-  cursor: pointer;
-  background-color: #053352;
-  border: 2px solid #3498db;
-  border-radius: 4px;
-  color: rgb(114, 224, 70);
-  display: block;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
+    cursor: pointer;
+    background-color: #053352;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: rgb(114, 224, 70);
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
+
 .field-icon {
-  float: right;
-  margin-left: -25px;
-  margin-top: -25px;
-  margin-right: 10px;
-  position: relative;
-  z-index: 2; 
-  /* shows floating the icon over teh input field */
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+    /* shows floating the icon over teh input field */
 }
